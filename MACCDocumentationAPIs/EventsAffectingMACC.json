@@ -1,0 +1,52 @@
+{
+    "value": [
+      {
+        "id": "/providers/Microsoft.Billing/billingAccounts/5e98e158-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/providers/Microsoft.Consumption/events/103axxxx-2c25-7xx3-f2a0-ad9a3f1c91xx",
+        "name": "103axxxx-2c25-7xx3-f2a0-ad9a3f1c91xx",
+        "type": "Microsoft.Consumption/events",
+        "eTag": null,
+        "properties": {
+          "billingProfileId": "/providers/Microsoft.Billing/billingAccounts/5e98e158-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/billingProfiles/SWFF-DVM4-XXX-XXX",
+          "billingProfileDisplayName": "Finance",
+          "lotId": "/providers/Microsoft.Billing/billingAccounts/5e98e158-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/providers/Microsoft.Consumption/lots/G2021032459206000XXXX",
+          "lotSource": "ConsumptionCommitment",
+          "transactionDate": "2021-05-05T00:09:13.0000000Z",
+          "description": "Balance after invoice T00075XXXX",
+          "charges": {
+            "currency": "USD",
+            "value": -100.0
+          },
+          "closedBalance": {
+            "currency": "USD",
+            "value": 9899.71
+          },
+          "eventType": "SettledCharges",
+          "invoiceNumber": "T00075XXXX"
+        }
+      },
+      {
+        "id": "/providers/Microsoft.Billing/billingAccounts/5e98e158-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/providers/Microsoft.Consumption/events/203axxxx-2c25-7xx3-f2a0-ad9a3f1c91xx",
+        "name": "203axxxx-2c25-7xx3-f2a0-ad9a3f1c91xx",
+        "type": "Microsoft.Consumption/events",
+        "eTag": null,
+        "properties": {
+          "billingProfileId": "/providers/Microsoft.Billing/billingAccounts/5e98e158-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/billingProfiles/SWFF-DVM4-XXX-XXX",
+          "billingProfileDisplayName": "Engineering",
+          "lotId": "/providers/Microsoft.Billing/billingAccounts/5e98e158-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/providers/Microsoft.Consumption/lots/G2021032459206000XXXX",
+          "lotSource": "ConsumptionCommitment",
+          "transactionDate": "2021-04-05T00:09:13.0000000Z",
+          "description": "Balance after invoice T00074XXXX",
+          "charges": {
+            "currency": "USD",
+            "value": -0.29
+          },
+          "closedBalance": {
+            "currency": "USD",
+            "value": 9999.71
+          },
+          "eventType": "SettledCharges",
+          "invoiceNumber": "T00074XXXX"
+        }
+      }
+    ]
+  }

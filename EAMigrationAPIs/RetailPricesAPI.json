@@ -1,0 +1,35 @@
+{
+            "currencyCode": "USD",
+            "tierMinimumUnits": 0.0,
+            "retailPrice": 2.305,
+            "unitPrice": 2.305,
+            "armRegionName": "southindia",
+            "location": "IN South",
+            "effectiveStartDate": "2019-05-14T00:00:00Z",
+            "meterId": "0084b086-37bf-4bee-b27f-6eb0f9ee4954",
+            "meterName": "M8ms",
+            "productId": "DZH318Z0BQ4W",
+            "skuId": "DZH318Z0BQ4W/00BQ",
+            "availabilityId": null,
+            "productName": "Virtual Machines MS Series",
+            "skuName": "M8ms",
+            "serviceName": "Virtual Machines",
+            "serviceId": "DZH313Z7MMC8",
+            "serviceFamily": "Compute",
+            "unitOfMeasure": "1 Hour",
+            "type": "Consumption",
+            "isPrimaryMeterRegion": true,
+            "armSkuName": "Standard_M8ms",
+            "savingsPlan": [
+                {
+                    "unitPrice": 0.8065195,
+                    "retailPrice": 0.8065195,
+                    "term": "3 Years"
+                },
+                {
+                    "unitPrice": 1.5902195,
+                    "retailPrice": 1.5902195,
+                    "term": "1 Year"
+                }
+            ]
+        }

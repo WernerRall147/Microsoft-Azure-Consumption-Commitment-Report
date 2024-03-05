@@ -1,0 +1,46 @@
+{
+    "value": [
+      {
+        "id": "/providers/Microsoft.Billing/billingAccounts/9a157b81-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/providers/Microsoft.Consumption/lots/G2021032459206000XXXX",
+        "name": "G2021032459206000XXXX",
+        "type": "Microsoft.Consumption/lots",
+        "eTag": null,
+        "properties": {
+          "purchasedDate": "2021-03-24T16:26:46.0000000Z",
+          "status": "Active",
+          "originalAmount": {
+            "currency": "USD",
+            "value": 10000.0
+          },
+          "closedBalance": {
+            "currency": "USD",
+            "value": 9899.42
+          },
+          "source": "ConsumptionCommitment",
+          "startDate": "2021-03-01T00:00:00.0000000Z",
+          "expirationDate": "2024-02-28T00:00:00.0000000Z"
+        }
+      },
+      {
+        "id": "/providers/Microsoft.Billing/billingAccounts/9a157b81-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx/providers/Microsoft.Consumption/lots/G1011082459206000XXXX",
+        "name": "G1011082459206000XXXX",
+        "type": "Microsoft.Consumption/lots",
+        "eTag": null,
+        "properties": {
+          "purchasedDate": "2021-03-24T16:26:46.0000000Z",
+          "status": "Complete",
+          "originalAmount": {
+            "currency": "USD",
+            "value": 10000.0
+          },
+          "closedBalance": {
+            "currency": "USD",
+            "value": 0.00
+          },
+          "source": "ConsumptionCommitment",
+          "startDate": "2020-03-01T00:00:00.0000000Z",
+          "expirationDate": "2021-02-28T00:00:00.0000000Z"
+        }
+      }
+    ]
+  }

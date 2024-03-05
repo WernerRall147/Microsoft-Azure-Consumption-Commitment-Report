@@ -1,0 +1,28 @@
+{
+    "value": [
+      {
+        "id": "/providers/Microsoft.Billing/billingAccounts/9a157b81-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx",
+        "name": "9a157b81-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx",
+        "type": "Microsoft.Billing/billingAccounts",
+        "properties": {
+          "displayName": "Contoso",
+          "agreementType": "MicrosoftCustomerAgreement",
+          "accountStatus": "Active",
+          "accountType": "Enterprise",
+          "hasReadAccess": true,
+        }
+      },
+      {
+        "id": "/providers/Microsoft.Billing/billingAccounts/9a12f056-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx",
+        "name": "9a12f056-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx_xxxx-xx-xx",
+        "type": "Microsoft.Billing/billingAccounts",
+        "properties": {
+          "displayName": "Kayla Lewis",
+          "agreementType": "MicrosoftCustomerAgreement",
+          "accountStatus": "Active",
+          "accountType": "Individual",
+          "hasReadAccess": true,
+        }
+      }
+    ]
+  }
